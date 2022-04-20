@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #111111;
+    /* background-color: #f0f5f5; */
+}
+main{
+    width: 100%;
+    margin:  auto;
+    /* border: 1px solid grey; */
+    display: grid;
+    grid-template-rows: 60px 100px 200px 60px;
+    color: white;
+    grid-template-columns: repeat(3, 1fr) 100px;
+    grid-gap: 20px;
+    text-align: center;
+    background-color: #f0f5f5;
+    height: 100%;
+   
+}
+
+.div1{
+   
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    align-items: center;
+    /* background-color: #fff; */
+    margin: 4px;
+    padding: 10px;
+    
+}
+/* .div5{
+    background-color: #2f3542;
+    grid-row: 2/4;
+    grid-column: 4/5;
+    margin-left: auto;
+} */
+.div6{
+    background-color: #ffffff;
+    grid-column: 1/ 5;
+    text-align: left;
+    align-items: center;
+    height: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 22px;
+   
+}
+.userbtn{
+    background-color:#93e9be;
+     color:white;
+      padding-left:25px; 
+      padding-right:18px; 
+}
+span{
+    font-size: 14px;
+   
+}
+.div7{
+  
+   
+    grid-column: 1/-1;
+    height: 180px;
+    text-align: left;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 80px;
+  
+    
+}
+.div2{
+    background-color: #ffffff;
+    margin-left: 10px;
+    text-align: left;
+    color: #ffa502;
+    align-items: center;
+    font-family: 'Heebo', sans-serif;
+    border: 1px solid #ccc;
+   
+    
+  
+}
+h4{
+    color: #ffa502;
+}
+.div3{
+    background-color: #ffffff;
+    margin-left: 10px;
+    text-align: left;
+    color: #ffa502;
+    align-items: center;
+    font-family: 'Heebo', sans-serif;
+    border: 1px solid #ccc;
+}
+.div4{
+    background-color: #ffffff;
+    text-align: left;
+    border: 1px solid #ccc;
+    font-family: 'Heebo', sans-serif
+
+}
+
+.container{
+    margin-left: 44px;
+    margin-top: 20px;
+}
+h6{
+    margin-left: 24px;
+    font-size: 20px;
+}
+button{
+    margin-left: 24px;
+    padding: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.cDetails{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 12px;
+    font-family: 'Heebo', sans-serif;
+   
+}
+li{
+    list-style: none;
+    margin-top: 10px;
+}
+.cards{
+    padding: 14px;
+}
